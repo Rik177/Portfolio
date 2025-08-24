@@ -1,4 +1,5 @@
 import { Github, ExternalLink } from 'lucide-react';
+import { AwesomeKanban, Nord, YouTalk } from './projectImages';
 
 const Projects = () => {
   const projects = [
@@ -6,7 +7,7 @@ const Projects = () => {
       title: 'YouTalk',
       description: 'Блог сервиса по психологии. (Учебный проект, реализован переход только на одну статью.)',
       technologies: ['JS', 'WebPack'],
-      image: '../../images/YouTalk.png',
+      image: YouTalk,
       github: 'https://github.com/Rik177/YouTalk.git',
       live: 'https://youtalktask.netlify.app/',
     },
@@ -14,7 +15,7 @@ const Projects = () => {
       title: 'Kanban Board',
       description: 'Канбан доска со всеми необходимыми функциями. (Учебный проект)',
       technologies: ['React', 'TypeScript', 'CSS Modules', 'LocalStorage', 'Jest'],
-      image: '../../images/Awesome_Kanban.png',
+      image: AwesomeKanban,
       github: 'https://github.com/Rik177/Kanban.git',
       live: 'https://awesomekanbanboard.netlify.app/',
     },
@@ -22,7 +23,7 @@ const Projects = () => {
       title: 'NORD ENGINEERING',
       description: 'Интернет магазин вентилляционного оборудования.',
       technologies: ['React', 'TypeScript', 'Tailwind', 'Swiper', 'Vite', 'Eslint'],
-      image: '../../images/Nord.png',
+      image: Nord,
       github: 'https://github.com/Rik177/NORD-28072025.git',
       live: 'https://nord4020.netlify.app/',
     },
